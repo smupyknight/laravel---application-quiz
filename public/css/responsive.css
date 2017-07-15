@@ -1,0 +1,163 @@
+@media (min-width: 800px) {
+	.section hr {
+		width: 760px;
+		border: 1px solid #e3e3e3;
+		margin-top: 62px;
+		margin-bottom: 69px;
+	}
+}
+
+@media (min-width: 768px) {
+	html {
+		padding: 20px;
+		background: #fff;
+	}
+
+	header .row > div:first-child {
+		text-align: left;
+		padding-top: 55px;
+	}
+
+	header .row > div:last-child {
+		text-align: right;
+		padding-top: 59px;
+	}
+
+	input[name='app_address'] {
+		width: calc(1314px + calc(50% - 657px) + 15px) !important;
+	}
+
+	.section .content > div {
+		padding: 0px;
+	}
+
+	.section .content > div input {
+		width: 657px;
+	}
+
+	.section .content > div label {
+		width: 657px;
+		text-align: left;
+		font-size: 27px;
+		font-weight: normal;
+	}
+
+	.section .content .dropdown-wrapper .dropdown-toggle {
+		width: 657px;
+		font-size: 27px;
+	}
+
+	.section .select.current-insurance .dropdown-wrapper .dropdown-toggle {
+		width: 347px;
+	}
+
+	.section .content .select.date .dropdown-wrapper a {
+		width: 361px;
+	}
+
+	textarea {
+		width: 657px;
+		height: 130px;
+	}
+
+	.section .content .select.beneficiary > div {
+		width: 447px;
+	}
+
+	.section .content .select.beneficiary input, 
+	.section .content .select.current-insurance input, 
+	.section .content .select.other-insurance input, 
+	.section .content .select.tobacco-exp input{
+		width: 100%;
+	}
+
+	.section .content .select.current-insurance > div, 
+	.section .content .select.other-insurance > div {
+		width: 347px;
+	}
+
+	.section .content .select.tobacco-exp > div {
+		width: 587px;
+	}
+
+	.section .content .add-element {
+		position: absolute;
+		right: 163px;
+		bottom: 20px;
+	}
+
+	.section .content .remove-element {
+		position: absolute;
+		right: 123px;
+		bottom: 20px;
+	}
+
+	.section .review-item {
+		width: 557px;
+	}
+
+	.section a.btn {
+		padding: 14px 40px;
+	}
+
+	#pjax-container {
+		margin-top: 112px;
+	}
+}
+
+@media (max-width: 768px) {
+
+	.section .content {
+		margin-top: 30px;
+	}
+
+	.section .content input {
+		width: 300px;
+		font-size: 21px !important;
+	}
+
+	.section .content .dropdown-wrapper .dropdown-toggle {
+		width: 300px;
+	}
+
+	.section .content .select.date .dropdown-wrapper a {
+		width: 300px;
+		display: block;
+	}
+
+	textarea {
+		width: 300px;
+		height: 160px;
+	}
+
+
+	.section .content .select.beneficiary > div,
+	.section .content .select.current-insurance > div, 
+	.section .content .select.other-insurance > div,
+	.section .content .select.tobacco-exp > div {
+		width: 300px;
+		font-size: 21px;
+	}
+
+	.section .content .dropdown-wrapper .dropdown-toggle {
+		font-size: 21px;
+	}
+
+	.section .content .add-element {
+		margin-top: 20px;
+	}
+
+	.section .review-item {
+		width: 300px;
+		margin: 0 20px;
+	}
+
+	.section a.btn {
+		padding: 14px 17px;
+		margin-bottom: 10px;
+	}
+
+	#pjax-container {
+		margin-top: 50px;
+	}
+}

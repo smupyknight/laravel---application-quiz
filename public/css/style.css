@@ -1,0 +1,360 @@
+html, body{
+	
+}
+
+html {
+	height: 100%;
+	padding-bottom: 20px;
+}
+
+body {
+	min-height: 100%;
+	background: #f7f7f7;
+	font-family: 'Raleway';
+	color: #666;
+	margin-bottom: 20px;
+}
+
+header .row {
+	text-align: center; 
+	position: relative;
+	padding: 0px 20px;
+}
+
+header .row > div {
+	margin: 0;
+	padding: 0;
+}
+
+header .row > div:first-child {
+	padding-top: 45px;
+}
+
+header .row > div:last-child {
+	padding-top: 1px;
+}
+
+header .logo {
+	width: 178px;
+	height: 178px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	display: inline-block;
+	background: url('../images/logo.png');
+}
+
+header .contact {
+	font-size: 27px;
+}
+
+input:focus, textarea:focus {
+	outline: none;
+	color: #000 !important;
+	font-weight: bold;
+	border-bottom: 2px solid #000 !important;
+}
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+input[type='number'] {
+	-moz-appearance: textfield;
+}
+
+textarea {
+	border: none;
+	color: #979797;
+	padding: 22px 0px;
+	border-bottom: 2px solid #979797;
+	font-size: 27px;
+	background: none;
+}
+
+h1, h3 {
+	margin: 0px;
+}
+
+a {
+	cursor: pointer;
+}
+
+.burger-menu a {
+	position: relative;
+	display: inline-block;
+	width: 58px;
+	height: 9px;
+	text-transform: uppercase;
+	background: #979797;
+	transition: all 0.2s ease-out;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.burger-menu a::before, 
+.burger-menu a::after {
+	content: '';
+	width: 58px;
+	height: 9px;
+	background: #979797;
+	position: absolute;
+	left: 0;
+	transform: all 0.2s ease-out;
+}
+
+.burger-menu a::before {
+	top: -14px;
+}
+
+.burger-menu a::after {
+	bottom: -14px;
+}
+
+.burger-menu a div {
+	margin-top: 26px;
+	color: #3D3D3D;
+	font-size: 14px;
+}
+
+.full-width {
+	width: 100% !important;
+}
+
+.no-margin-top {
+	margin-top: 0px !important;
+}
+
+#pjax-container {
+	width: 100%;
+}
+
+.section {
+	text-align: center;
+}
+
+.section hr {
+	border: 1px solid #e3e3e3;
+	margin-top: 62px;
+	margin-bottom: 69px;
+}
+
+.section a.btn {
+	font-size: 18px;  
+	color: #fff;
+	border-radius: 6px;
+	display: inline-block;
+	background-color: #2873AF;
+}
+
+.section a.btn .glyphicon {
+	margin-left: 20px;
+}
+
+.section .title {
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.section .title h1 {
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.section .title h3 {
+	font-size: 18px;
+}
+
+.section.intro .title h1 {
+	font-size: 54px	;
+	word-wrap: break-word;
+}
+
+.section.intro .title h3 {
+	font-size: 28px;
+	text-transform: none;
+	font-family: 'Raleway';
+	line-height: 45px;
+	margin-top: 40px;
+}
+
+.section .content {
+	margin-top: 20px;
+	position: relative;
+	text-align: center;
+}
+
+.section .content input {
+	padding: 16px 5px;
+	font-size: 27px;
+	color: #979797;
+	border: none;
+	background: none;
+	border-bottom: 2px solid #979797;
+	border-radius: 2px;
+}
+
+.section .content input.other-state {
+	padding: 2px;
+	font-size: 12px;
+	border: 1px solid #999;
+	background: #fff;
+	width: 100%;
+}
+
+
+.section .content .select .option {
+	width: 246px;
+	height: 180px;
+	border: 1px solid #e3e3e3;
+	background-color: #fff;
+	display: inline-block;
+	margin: 25px;
+	line-height: 180px;
+	color: #979797;
+	font-size: 27px;
+	cursor: pointer;
+}
+
+.select .option:hover {
+	border-color: #00aa00 !important;
+	color: #00aa00 !important;
+}
+
+.select .option.active {
+	color: #00aa00 !important;
+	border-color: #00aa00 !important;
+	font-weight: bold;
+}
+
+.section .content .select.date .dropdown-wrapper {
+	margin: 0px 30px 20px 30px;
+}
+
+.section .content .dropdown-wrapper .dropdown-togge .selected-option {
+	font-size: 27px;
+}
+
+.select.beneficiary > div, 
+.select.current-insurance > div, 
+.select.other-insurance > div, 
+.select.tobacco-exp > div {
+	display: inline-block;
+	margin: 0px 25px;
+	padding: 0;
+}
+
+.section.notice .title h1 {
+	font-size: 72px;
+	word-wrap: break-word;
+}
+
+.section.notice .titl3 h3 {
+	font-size: 27px;
+}
+
+.section .content .add-element, 
+.section .content .remove-element {
+	cursor: pointer;
+}
+
+.section .content .add-element.add-current-insurance, 
+.section .content .add-element.add-other-insurance {
+	right: 140px;
+}
+
+.section .content .remove-element.remove-current-insurance, 
+.section .content .remove-element.remove-other-insurance {
+	right: 100px;
+}
+
+.section .content .add-element span,
+.section .content .remove-element span {
+	font-size: 35px;
+	color: #979797;
+}
+
+.section .content .dropdown-wrapper{
+	display:inline-block;
+	position: relative;
+}
+
+.section .content .dropdown-wrapper .dropdown-toggle {
+	color: #979797;
+	border-bottom: 2px solid #979797;
+	padding: 16px 5px;
+	display: block;
+	text-decoration: none;
+	text-align: left;
+	position: relative;
+}
+
+.section .content .dropdown-wrapper .dropdown-toggle span.glyphicon {
+	position: absolute;
+	right: 5px;
+	top: 30%;
+}
+
+.section .content .dropdown-wrapper .dropdown-menu {
+	width: 100%;
+	max-height: 200px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.section .button-wrapper {
+	margin-top: 69px;
+}
+
+.section .show-step {
+	margin-top: 67px;
+	font-size: 18px;
+	color: #979797;
+}
+
+.section .content > div {
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.section .content .top-margin {
+	margin-top: 40px;
+}
+
+.section .review-item {
+	display: inline-block;
+	margin: 0px 73px;
+	color: #979797;
+	padding-bottom: 10px;
+	margin-bottom: 68px;
+	font-size: 27px;
+}
+
+.section .review-item .review-title {
+	text-align: left;
+	font-family: 'Raleway';
+}
+
+.section .review-item .review-value {
+	margin-top: 35px;
+	text-align: left;
+	font-weight: bold;
+	font-family: 'Raleway';
+}
+
+.section .invalid {
+	position: relative;
+	background:rgba(255,0,0,0.2) !important;
+}
+
+.section .invalid::after {
+	content: 'This value is required.';
+	position: absolute;
+	bottom: -20px;
+	left: 10px;
+}
+
+.section .col-md-* {
+	padding: 0px;
+}
